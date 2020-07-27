@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Welcome to our company">
+    <meta name="keywords" content = "Hurghada,diving,safari,tourism" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Horus Company | Contact</title>
+</head>
+<body>
+   <header>
+       <nav id="navbar">
+           <div class="container">
+            <h1 class="logo"><a href="index.html"><img src="img/horus3.png" alt="My Image" float="right" width="110" height="65"></a></h1>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+           </div>
+
+       </nav>
+   </header>
+   <section id="contact-form" class="py-3">
+       <div class="container">
+           <h1 class="l-heading"><span class="text1-primary">Contact</span> Us</h1>
+           <p>Please fill out the form below to contact us</p>
+           <form action="process.php">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" >
+              </div> 
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" >
+            </div> 
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="messsage" id="messsage" ></textarea>
+            </div>
+            <button type="submit" class="btn">Submit for the text</button> 
+           </form>
+       </div>
+   </section>
+
+   <section id="contact-info" class="bg-dark">
+<div class="container">
+    <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Location
+            <p>500 Main st, Hurghada, Eg</p>
+        </h3>
+    </div>
+    <div class="box">
+        <i class="fas fa-phone fa-3x "></i>
+        <h3> Phone Number
+            <p>800-374-8719</p>
+        </h3>
+    </div>
+    <div class="box">
+        <i class="fas fa-envelope fa-3x "></i>
+        <h3>Email Address
+            <p>Blabla@horus.com</p>
+        </h3>
+    </div>
+</div>
+
+   </section>
+<footer id="main-footer">
+<p>Horus Company &copy; 2020, All Rights Reserved</p>
+</footer>
+</body>
+</html>
